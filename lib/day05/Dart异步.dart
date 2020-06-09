@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
-import 'service/http_request.dart';
+import '../service/http_request.dart';
 
 main() => runApp(KSJMyApp());
 
