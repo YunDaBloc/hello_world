@@ -48,6 +48,17 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/images/tab_btn_sy_n.png
+    - assets/images/tab_btn_sy_p.png
+    - assets/images/tab_btn_wd_n.png
+    - assets/images/tab_btn_wd_p.png
+    - assets/images/tab_btn_xk_n.png
+    - assets/images/tab_btn_xk_p.png
+    - assets/images/tab_btn_xx_n.png
+    - assets/images/tab_btn_xx_p.png
+    - assets/images/tab_btn_zb_n.png
+    - assets/images/tab_btn_zb_p.png
+    - assets/images/3.0X/
     - assets/images/tabbar/
     - assets/images/home/
 

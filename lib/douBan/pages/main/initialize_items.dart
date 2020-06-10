@@ -7,11 +7,11 @@ import '../profile/profile.dart';
 import 'bottom_bar_item.dart';
 
 List<KSJBottomBarItem> items = [
-  KSJBottomBarItem("home", "首页"),
-  KSJBottomBarItem("subject", "书影音"),
-  KSJBottomBarItem("group", "小组"),
-  KSJBottomBarItem("mall", "市集"),
-  KSJBottomBarItem("profile", "我的"),
+  KSJBottomBarItem("tab_btn_sy", "首页"),
+  KSJBottomBarItem("tab_btn_wd", "书影音"),
+  KSJBottomBarItem("tab_btn_xk", "小组"),
+  KSJBottomBarItem("tab_btn_xx", "市集"),
+  KSJBottomBarItem("tab_btn_zb", "我的"),
 ];
 
 List<Widget> pages = [

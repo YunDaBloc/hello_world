@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class KSJBottomBarItem extends BottomNavigationBarItem {
   KSJBottomBarItem(String iconName, String title) : super(
-      icon: Image.asset("assets/images/tabbar/$iconName.png", width: 24.0, height: 24.0),
-      activeIcon: Image.asset("assets/images/tabbar/${iconName}_active.png", width: 24.0, height: 24.0),
+//      width: 24.0, height: 24.0
+      icon: Image.asset("assets/images/${iconName}_n.png"),
+      activeIcon: Image.asset("assets/images/${iconName}_p.png"),
       title: Text("$title")
   );
 }

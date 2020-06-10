@@ -24,8 +24,8 @@ class _KSJMainPageState extends State<KSJMainPage> {
         children: pages,
       ),
       bottomNavigationBar: BottomNavigationBar(
-        selectedFontSize: 14.0,
-        unselectedFontSize: 14.0,
+        selectedFontSize: 10.0,
+        unselectedFontSize: 10.0,
         currentIndex: _currentIndex,
         type: BottomNavigationBarType.fixed,
         onTap: (index){
