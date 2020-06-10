@@ -58,8 +58,7 @@ flutter:
     - assets/images/tab_btn_xx_p.png
     - assets/images/tab_btn_zb_n.png
     - assets/images/tab_btn_zb_p.png
-    - assets/images/3.0X/
-    - assets/images/tabbar/
+    - assets/images/tabs/
     - assets/images/home/
 
   # An image asset can refer to one or more resolution-specific "variants", see

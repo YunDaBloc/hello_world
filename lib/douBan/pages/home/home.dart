@@ -20,15 +20,8 @@ class _KSJHomePageState extends State<KSJHomePage> {
     return ListView.builder(
         itemCount: 20,
         itemBuilder: (context, index) {
-          return Row(
-            children: <Widget>[
-              Image.asset("assets/images/tab_btn_sy_p.png", fit: BoxFit.cover, width: 0, height: 0),
-              Image.asset("assets/images/tab_btn_wd_p.png", fit: BoxFit.cover, width: 0, height: 0),
-              Image.asset("assets/images/tab_btn_xk_p.png", fit: BoxFit.cover, width: 0, height: 0),
-              Image.asset("assets/images/tab_btn_xx_p.png", fit: BoxFit.cover, width: 0, height: 0),
-              Image.asset("assets/images/tab_btn_zb_p.png", fit: BoxFit.cover, width: 0, height: 0)
-            ],
-          );
+          return Text('早上好');
         });
   }
 }
+
