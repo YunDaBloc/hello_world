@@ -7,14 +7,13 @@ class HttpRequest {
 
   static final Dio dio = Dio(baseOptions);
 
-  // 默认是get请求
+  // 默认是get请求——这里的async是因为下面的代码里有await
   static Future request(String url,
       {String method = "get",
       Map<String, dynamic> params,
-      Interceptor inter})
-  async {
+      Interceptor inter}) async {
     // star
-    print(url);
+    // print(url);
 
     // 1.创建单独网络请求
     final options = Options(method: method);

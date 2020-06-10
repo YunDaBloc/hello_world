@@ -23,6 +23,7 @@ class _KSJMainPageState extends State<KSJMainPage> {
         index: _currentIndex,
         children: pages,
       ),
+
       bottomNavigationBar: BottomNavigationBar(
         selectedFontSize: 10.0,
         unselectedFontSize: 10.0,
@@ -38,7 +39,6 @@ class _KSJMainPageState extends State<KSJMainPage> {
     );
   }
 
-
 //  第二种：函数封装方式
 //  Widget buildBottonItem(iconName, title) {
 //    BottomNavigationBarItem(
@@ -47,7 +47,6 @@ class _KSJMainPageState extends State<KSJMainPage> {
 //        title: Text("$title")
 //    );
 //  }
-
 }
 
 
