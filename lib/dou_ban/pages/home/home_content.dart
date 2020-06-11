@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'home_movie_item.dart';
 import 'package:hello_world/dou_ban/model/home_model.dart';
 import '../../../service/home_request.dart';
 
@@ -24,8 +25,17 @@ class _KSJHomeContentState extends State<KSJHomeContent> {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text("首页内容", style: TextStyle(fontSize: 30, color: Colors.green)),
+    return ListView.builder(
+        itemCount: this.movies.length,
+        itemBuilder: (context, index) {
+          return KSJHomeMovieItem(this.movies[index]);
+        }
     );
   }
 }
+
+/*
+*
+* 首页Home的body部分Widget
+* */
+

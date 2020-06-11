@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "豆瓣",
+//      title: "豆瓣1",
       theme: ThemeData(
         // 主题颜色
         primarySwatch: Colors.green,
@@ -24,9 +24,9 @@ class KSJHomePages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("豆瓣"),
-      ),
+//      appBar: AppBar(
+//        title: Text("豆瓣2"),
+//      ),
       body: KSJMainPage()
     );
   }
