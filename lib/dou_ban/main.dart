@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../douBan/pages/main/main.dart';
+import '../dou_ban/pages/main/main.dart';
 
 void main() => runApp(MyApp());
 
@@ -32,3 +32,7 @@ class KSJHomePages extends StatelessWidget {
   }
 }
 
+/*
+*
+* 豆瓣APP的Main函数的入口
+* */

@@ -21,3 +21,8 @@ List<Widget> pages = [
   KSJMallPage(),
   KSJProfilePage(),
 ];
+
+/*
+*
+* 配置文件：BottomNavigationBar底部tabBar的基础组件
+* */

@@ -38,3 +38,8 @@ class KSJDashedLine extends StatelessWidget {
     );
   }
 }
+
+/*
+*
+* 虚线框Widget的封装
+* */

@@ -111,3 +111,8 @@ class KSJStarClipper extends CustomClipper<Rect> {
     return oldClipper.leftWidth != this.leftWidth;
   }
 }
+
+/*
+*
+* 评分打星Widget的封装
+* */

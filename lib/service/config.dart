@@ -6,3 +6,8 @@ class HttpConfig {
 class HomeConfig {
   static const int movieCount = 20;
 }
+
+/*
+*
+* 网络基础设置参数配置
+* */
