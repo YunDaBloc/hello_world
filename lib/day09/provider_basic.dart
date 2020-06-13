@@ -90,32 +90,6 @@ class _KSJHomePageState extends State<KSJHomePage> {
   }
 }
 
-//class KSJShowData01 extends StatefulWidget {
-//
-//  @override
-//  _KSJShowData01State createState() => _KSJShowData01State();
-//}
-//
-//class _KSJShowData01State extends State<KSJShowData01> {
-//
-//  @override
-//  void didChangeDependencies() {
-//    // TODO: implement didChangeDependencies
-//    super.didChangeDependencies();
-//  }
-//
-//  @override
-//  Widget build(BuildContext context) {
-//
-//    int counter = Provider.of<KSJContentViewModel>(context).counter;
-//    print('执行了该方法...1 + KSJShowData01');
-//    return Card(
-//      color: Colors.red,
-//      child: Text("当前计数： $counter"),
-//    );
-//  }
-//}
-
 // 开发中使用最多的是02中的方法
 class KSJShowData01 extends StatelessWidget {
 
