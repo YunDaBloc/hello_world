@@ -10,6 +10,7 @@ class HomeRequest {
 
     // 2.发送网络请求获取结果
     final result = await HttpRequest.request(movieURL);
+    print(result);
     //  ————从耗时操作读取数据时不加await就会报错
     final subjects = result["subjects"];
     // 3.将Map转成Model

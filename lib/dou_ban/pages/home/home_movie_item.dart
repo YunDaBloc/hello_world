@@ -127,6 +127,7 @@ class KSJHomeMovieItem extends StatelessWidget {
                 color: Colors.pink,
                 size: 40,
               ),
+            // 基线对齐的方法
             baseline: TextBaseline.ideographic,
             alignment: PlaceholderAlignment.middle,
           ),

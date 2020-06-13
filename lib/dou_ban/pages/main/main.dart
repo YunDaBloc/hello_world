@@ -20,6 +20,7 @@ class _KSJMainPageState extends State<KSJMainPage> {
     return Scaffold(
       body: IndexedStack(
         index: _currentIndex,
+        // 启动页的时候会同时执行5个init方法
         children: pages,
       ),
       bottomNavigationBar: BottomNavigationBar(
