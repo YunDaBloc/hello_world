@@ -140,17 +140,21 @@ class KSJHomeMovieItem extends StatelessWidget {
 
   // 2.2.2
   Widget buildContentInfoRate() {
-    return Row(
-      children: <Widget>[
-        KSJStarsWidget(
-          rating: movie.rating,
-          size: 20,
-        ),
-        SizedBox(
-          width: 6,
-        ),
-        Text("${movie.rating}",style: TextStyle(fontSize: 16))
-      ],
+    // 内部越界的时候，外面的越界包裹自适应
+    // flutter中有130多个Widget
+    return FittedBox(
+      child: Row(
+        children: <Widget>[
+          KSJStarsWidget(
+            rating: movie.rating,
+            size: 20,
+          ),
+          SizedBox(
+            width: 6,
+          ),
+          Text("${movie.rating}",style: TextStyle(fontSize: 16))
+        ],
+      ),
     );
   }
 

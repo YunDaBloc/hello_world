@@ -7,12 +7,7 @@ import 'package:provider/provider.dart';
 *
 * */
 void main(){
-  runApp(
-    ChangeNotifierProvider(
-        child: MyApp(),
-        create: null
-    ),
-  );
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
