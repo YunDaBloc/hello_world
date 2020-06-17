@@ -9,18 +9,21 @@ class KSJImageDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-
-        child: GestureDetector(
-          child: Hero(
-            tag: imageURL,
-              child: Image.network(imageURL)
+      body: GestureDetector(
+        child: Container(
+          color: Colors.black,
+          child: Center(
+            child: GestureDetector(
+              child: Hero(
+                tag: imageURL,
+                  child: Image.network(imageURL)
+              ),
+            ),
           ),
-          onTap: (){
-            Navigator.pop(context);
-          },
         ),
-
+        onTap: (){
+          Navigator.pop(context);
+        },
       ),
     );
   }
