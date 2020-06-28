@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         // 设置无水波纹的效果
         highlightColor: Colors.transparent,
       ),
+      darkTheme: ThemeData.dark(),
       home: KSJHomePage(),
     );
   }
